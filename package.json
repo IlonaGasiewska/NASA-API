@@ -2,7 +2,7 @@
   "name": "nasa-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.18.3",
     "node-fetch": "^2.7.0"
@@ -11,7 +11,7 @@
     "nodemon": "^3.1.0"
   },
   "scripts": {
-    "serve": "nodemon ./index.js",
+    "serve": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
