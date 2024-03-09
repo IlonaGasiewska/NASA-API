@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const getDays = require("../../userCase/getDays");
-const getData = require("../../userCase/getData");
-const fetchData = require("../../repository/apiRepository");
+const getDays = require("../../useCase/getDays");
+const getData = require("../../useCase/getData");
+const fetchData = require("../../repository/api.service");
 
 // TODO : Send parms do the key in variables (function?)
 
